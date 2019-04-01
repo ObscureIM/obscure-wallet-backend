@@ -1,4 +1,4 @@
-import { CryptoNote } from 'turtlecoin-utils';
+import { CryptoNote } from 'obscure-utils';
 /**
  * This needs to be a function, rather than a default export, since our config
  * can change when a user calls createWallet() with a non default config.

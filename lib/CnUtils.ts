@@ -2,7 +2,7 @@
 //
 // Please see the included LICENSE file for more information.
 
-import { CryptoNote } from 'turtlecoin-utils';
+import { CryptoNote } from 'obscure-utils';
 import { Config } from './Config';
 
 /**

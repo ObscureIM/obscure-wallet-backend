@@ -3,7 +3,7 @@
 //
 // Please see the included LICENSE file for more information.
 Object.defineProperty(exports, "__esModule", { value: true });
-const turtlecoin_utils_1 = require("turtlecoin-utils");
+const obscure_utils_1 = require("obscure-utils");
 const Config_1 = require("./Config");
 /**
  * This needs to be a function, rather than a default export, since our config
@@ -12,7 +12,7 @@ const Config_1 = require("./Config");
  * config will never update.
  */
 function CryptoUtils() {
-    return new turtlecoin_utils_1.CryptoNote({
+    return new obscure_utils_1.CryptoNote({
         addressPrefix: Config_1.Config.addressPrefix,
         cnFastHash: Config_1.Config.cnFastHash,
         coinUnitPlaces: Config_1.Config.decimalPlaces,
